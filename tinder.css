@@ -60,6 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-image: url("Icones/foto.jpg");
 }
 #containerT2 {
     height: 20%;
@@ -86,9 +87,18 @@ h2 {
 }
 h3 {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 /*Parágrafos*/
+.status {
+    color: white;
+    font-size: 14px
+}
+.curso {
+    color: white;
+    font-size: 12px;
+}
 .base {
     font-size: 12px;
+    text-align: center;
 }
