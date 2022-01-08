@@ -3,11 +3,11 @@ body {
     margin: 0px;
     display: grid;
     grid-template-columns: auto;
+    grid-template-rows: auto;
     height: 100vh;
 }
 /*Containers*/
 #containerPrincipal {
-    height: 100%;
     display: flex;
     flex-direction: row;
 }
