@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: orange; /*degrade*/
+    background-image: linear-gradient(to top right, red, orange); /*degrade*/
 }
 #containerM {
     height: 2.5%;
@@ -35,6 +35,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#carta {
+    height: 125px;
+    width: 75px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, red, orange);
 }
 #containerD {
     height: 100%;
@@ -63,7 +69,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     background-image: url("Icones/foto.jpg");
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
 }
 #containerT2 {
     height: 20%;
@@ -84,6 +90,7 @@ body {
 /*Titulos*/
 h1 {
     font-size: 12px;
+    text-align: center;
 }
 h2 {
     font-size: 16px;
@@ -120,6 +127,9 @@ input {
     width: 120px;
 }
 /*Imagens*/
+#logo {
+    border-radius: 10px
+}
 .imgb {
     height: 20px;
     width: 20px;
