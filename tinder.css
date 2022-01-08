@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to top right, red, orange); /*degrade*/
+    background-image: linear-gradient(to top right, red, orange);
 }
 #containerM {
     height: 2.5%;
@@ -38,9 +38,9 @@ body {
     align-items: center;
 }
 #carta {
-    height: 125px;
+    height: 120px;
     width: 75px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-image: linear-gradient(to right, red, orange);
 }
 #containerD {
@@ -118,15 +118,15 @@ h3 {
 }
 #status {
     color: white;
-    font-size: 14px
+    font-size: 10px
 }
 #curso {
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     padding-bottom: 10px;
 }
 #oculto {
-    font-size: 12px;
+    font-size: 11px;
     color: white;
     background-color: gray;
     border-style: solid;
@@ -136,10 +136,10 @@ h3 {
 }
 .base {
     color: gray;
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
 }
-/*button*/
+/*Button*/
 button {
     height: 24px;
     display: flex;
@@ -156,7 +156,31 @@ input {
 }
 /*Imagens*/
 #logo {
-    border-radius: 10px
+    height: 13px;
+    width: 13px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.icone {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+.retorno {
+    border-color: white;
+}
+.x {
+    border-color: red;
+}
+.estrela {
+    border-color: lightblue;
+}
+.coração {
+    border-color: lightgreen;
+}
+.raio {
+    border-color: purple;
 }
 .imgb {
     height: 20px;
