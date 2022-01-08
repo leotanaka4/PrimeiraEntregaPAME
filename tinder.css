@@ -2,7 +2,7 @@ body {
     font-family: "Helvetica";
     margin: 0px;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto;
     height: 100vh;
 }
 /*Containers*/
@@ -96,6 +96,7 @@ h1 {
     font-size: 12px;
     color: black;
     text-align: center;
+    flex-shrink: 0;
 }
 h2 {
     font-size: 16px;
@@ -151,6 +152,7 @@ button {
     background: rgba(145, 139, 139, 0.3);
     border-radius: 15px;
     border: none;
+    flex-shrink: 0;
 }
 /*Input*/
 input {
@@ -163,6 +165,13 @@ input {
     width: 13px;
     border-style: solid;
     border-radius: 50%;
+    flex-shrink: 0;
+}
+#bolsa {
+    flex-shrink: 0;
+}
+#escudo {
+    flex-shrink: 0;
 }
 .icone {
     padding: 10px;
