@@ -150,6 +150,7 @@ button {
     align-items: center;
     background: rgba(145, 139, 139, 0.3);
     border-radius: 15px;
+    border: none;
 }
 /*Input*/
 input {
