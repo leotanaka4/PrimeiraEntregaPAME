@@ -152,7 +152,6 @@ button {
     background: rgba(145, 139, 139, 0.3);
     border-radius: 15px;
     border: none;
-    flex-shrink: 0;
 }
 /*Input*/
 input {
@@ -165,13 +164,6 @@ input {
     width: 13px;
     border-style: solid;
     border-radius: 50%;
-    flex-shrink: 0;
-}
-#bolsa {
-    flex-shrink: 0;
-}
-#escudo {
-    flex-shrink: 0;
 }
 .icone {
     padding: 10px;
