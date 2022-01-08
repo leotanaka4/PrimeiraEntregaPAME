@@ -28,6 +28,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding: 5px;
 }
 #containerI {
     height: 92.5%;
@@ -89,6 +90,7 @@ body {
 }
 /*Titulos*/
 h1 {
+    color: black;
     font-size: 12px;
     text-align: center;
 }
@@ -100,11 +102,22 @@ h3 {
     font-size: 18px;
 }
 /*Parágrafos*/
-.status {
+#matches {
+    font-size: 14px;
+    border-bottom: solid 2px red;
+}
+#mensagens {
+    font-size: 14px;
+    padding-left: 10px;
+}
+#opiniao {
+    text-align: center;
+}
+#status {
     color: white;
     font-size: 14px
 }
-.curso {
+#curso {
     color: white;
     font-size: 12px;
 }
